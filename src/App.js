@@ -9,6 +9,8 @@ import NavBar from "./components/navBar";
 import SetAttributes from "./components/settingAttributes";
 import RenderCD from "./components/renderClassDinamic";
 import EmbedingEx from "./components/embedingExpression";
+import RList from "./components/renderList";
+import HandleEvents from "./components/handlingEvents";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route component={SetAttributes} path='/settingAttributes' />
         <Route component={RenderCD} path='/renderClassDinamic' />
         <Route component={EmbedingEx} path='/embedingExpression' />
+        <Route component={RList} path='/renderList' />
+        <Route component={HandleEvents} path='/handlingEvents' />
         
       </Switch>
     </BrowserRouter>
