@@ -4,18 +4,12 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <header className="bg-red-600">
-      <div>
+      <div >
         <nav>
-          <NavLink
-            to="/"
-            exact
-           >
-            Kapehe
-          </NavLink>
-          
+          <NavLink to="/" exact>Home</NavLink>
+          <NavLink to="/post">Blog Posts</NavLink>
         </nav>
-      </div>  
-        
+      </div>
     </header>
   );
 }
