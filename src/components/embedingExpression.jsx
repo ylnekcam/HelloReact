@@ -23,7 +23,7 @@ class Counter extends Component {
 export default Counter;
 */
 //using state
-class Counter extends Component {
+export default class EmbedingExpression extends Component {
     
     state = {
        count: 0
@@ -57,4 +57,3 @@ class Counter extends Component {
 
     
 }
-export default Counter;

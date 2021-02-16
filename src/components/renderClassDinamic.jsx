@@ -4,7 +4,7 @@ Simple React Snippets
 import React, { Component } from 'react';// shortcut: imrc
 
 //shortcut: cc
-class Counter extends Component {
+export default class renderClassDinamic extends Component {
     
     state = {
        count: 0
@@ -38,4 +38,3 @@ class Counter extends Component {
     }
 
 }
-export default Counter;

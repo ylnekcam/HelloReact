@@ -1,13 +1,16 @@
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <header className="bg-red-600">
-      <div >
+    <header>
+      <div>
         <nav>
-          <NavLink to="/" exact>Home</NavLink>
-          <NavLink to="/post">Blog Posts</NavLink>
+          <NavLink to="/" exact> Home </NavLink>
+          <NavLink to="/settingAttributes"> Set Attributes </NavLink>
+          <NavLink to="/renderClassDinamic"> Render Class Dinamic </NavLink>
+          <NavLink to="/embedingExpression"> Embeding Expression </NavLink>
         </nav>
       </div>
     </header>

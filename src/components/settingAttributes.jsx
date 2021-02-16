@@ -4,10 +4,10 @@ Simple React Snippets
 import React, { Component } from 'react';// shortcut: imrc
 
 //shortcut: cc
-class Counter extends Component {
+class setAttributes extends Component {
     
     state = {
-       count: 0,
+       count: 1,
     };
  /*
  //adding styles
@@ -42,4 +42,4 @@ class Counter extends Component {
     }
 
 }
-export default Counter;
+export default setAttributes;
