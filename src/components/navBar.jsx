@@ -13,6 +13,7 @@ export default function NavBar() {
           <NavLink to="/renderClassDinamic"> Render Class Dinamic </NavLink>
           <NavLink to="/renderList"> Render List </NavLink>
           <NavLink to="/handlingEvents"> handle events </NavLink>
+          <NavLink to="/passingArguments"> Passing Arguments </NavLink>
           
         </nav>
       </div>
