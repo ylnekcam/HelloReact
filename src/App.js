@@ -12,6 +12,8 @@ import EmbedingEx from "./components/embedingExpression";
 import RList from "./components/renderList";
 import HandleEvents from "./components/handlingEvents";
 import PassArg from "./components/passingArguments";
+import ViewFromSheets from "./sheetComponents/getDataFromSheet";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route component={RList} path='/renderList' />
         <Route component={HandleEvents} path='/handlingEvents' />
         <Route component={PassArg} path='/passingArguments' />
+        <Route component={ViewFromSheets} path='/viewdatafromsheets' />
         
       </Switch>
     </BrowserRouter>

@@ -31,13 +31,3 @@ export default function GetDataFromSheets() {
  
 return (viewData);
 }
-/*
-function viewAllData(){
-  
-return viewAll;
-}
-
-function viewSingleData(){
-  
-}
-*/

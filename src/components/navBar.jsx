@@ -14,7 +14,7 @@ export default function NavBar() {
           <NavLink to="/renderList"> Render List </NavLink>
           <NavLink to="/handlingEvents"> handle events </NavLink>
           <NavLink to="/passingArguments"> Passing Arguments </NavLink>
-          
+          <NavLink to="/viewdatafromsheets"> View Data From Sheets </NavLink>
         </nav>
       </div>
     </header>
